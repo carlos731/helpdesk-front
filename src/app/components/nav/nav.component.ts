@@ -15,7 +15,8 @@ export class NavComponent implements OnInit {
     private toast: ToastrService) { }//Router permite que navegue entre os components
 
   ngOnInit(): void {
-    this.router.navigate(['home'])//inicia o caminho da tela home: /home 
+    this.router.navigate(['tecnico'])//inicia o caminho da tela home: /home 
+    //this.router.navigate(['home'])
   }
 
   logout(){
