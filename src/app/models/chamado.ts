@@ -1,4 +1,4 @@
-export interface chamado{
+export interface Chamado{
     id?: any;
     dataAbertura?: string;
     dataFechamento?: string;
